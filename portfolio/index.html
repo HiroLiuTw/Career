@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hiro Liu - Career Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="deck" aria-label="Hiro Liu Career Portfolio">
+    <section class="slide active" id="slide-1">
+      <div class="kicker">Career Portfolio</div>
+      <h1>Hiro Liu</h1>
+      <p class="lead">Senior Software Engineer with 13+ years of experience building reliable software from industrial IoT to endpoint security.</p>
+      <div class="tags">
+        <span class="tag">System Software</span>
+        <span class="tag">Endpoint Security</span>
+        <span class="tag">Cross-platform Development</span>
+        <span class="tag">Automation & Integration</span>
+      </div>
+      <div class="meta-row">
+        <span>Taipei, Taiwan</span>
+        <span>Windows • Android • iOS • Linux</span>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-2">
+      <div class="kicker">Career Journey</div>
+      <h2>From computer science to production-scale software.</h2>
+      <p class="lead">A career path across education, military service, industrial IoT, and endpoint security.</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="year">2007 - 2011</div>
+          <div class="timeline-title">NTUST</div>
+          <div class="timeline-text">B.S. in Computer Science and Information Engineering.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2011 - 2012</div>
+          <div class="timeline-title">Military Service</div>
+          <div class="timeline-text">Completed mandatory military service in Taiwan.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2012 - 2020</div>
+          <div class="timeline-title">SUNIX</div>
+          <div class="timeline-text">Built industrial IoT products and later led a small engineering team.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2020 - Present</div>
+          <div class="timeline-title">Trend Micro</div>
+          <div class="timeline-text">Developing endpoint security products and resolving production issues at scale.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-3">
+      <div class="kicker">SUNIX</div>
+      <h2>Building connected industrial solutions.</h2>
+      <p class="lead">DevicePort virtualizes physical industrial interfaces over Ethernet, enabling remote access from host systems and custom applications.</p>
+      <div class="diagram-card">
+        <svg viewBox="0 0 1160 560" role="img" aria-label="DevicePort architecture diagram">
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 0 L 10 5 L 0 10 z" fill="rgba(77,163,255,0.78)" />
+            </marker>
+          </defs>
+
+          <rect class="node-strong" x="430" y="42" width="300" height="126" rx="26" />
+          <text class="svg-title" x="580" y="88" text-anchor="middle">DevicePort Hardware</text>
+          <text class="svg-subtitle" x="580" y="118" text-anchor="middle">Industrial Device Server</text>
+          <text class="svg-small" x="580" y="146" text-anchor="middle">UART • USB • DIO • AIO • Parallel</text>
+
+          <path class="svg-accent-line" d="M 580 168 L 580 228" marker-end="url(#arrow)" />
+          <rect class="node" x="388" y="230" width="384" height="70" rx="18" />
+          <text class="svg-title" x="580" y="260" text-anchor="middle">Ethernet Virtualization</text>
+          <text class="svg-subtitle" x="580" y="284" text-anchor="middle">Remote access to physical ports over network connections</text>
+
+          <path class="svg-line" d="M 580 300 C 580 350, 174 350, 174 390" marker-end="url(#arrow)" />
+          <path class="svg-line" d="M 580 300 C 580 350, 430 350, 430 390" marker-end="url(#arrow)" />
+          <path class="svg-line" d="M 580 300 C 580 350, 690 350, 690 390" marker-end="url(#arrow)" />
+          <path class="svg-line" d="M 580 300 C 580 350, 960 350, 960 390" marker-end="url(#arrow)" />
+
+          <rect class="node" x="42" y="390" width="264" height="122" rx="22" />
+          <text class="svg-title" x="174" y="428" text-anchor="middle">Windows Console</text>
+          <text class="svg-subtitle" x="174" y="458" text-anchor="middle">Management console</text>
+          <text class="svg-small" x="174" y="486" text-anchor="middle">Configuration • Virtual port management</text>
+
+          <rect class="node" x="318" y="390" width="224" height="122" rx="22" />
+          <text class="svg-title" x="430" y="428" text-anchor="middle">Android SDK</text>
+          <text class="svg-subtitle" x="430" y="458" text-anchor="middle">Java</text>
+          <text class="svg-small" x="430" y="486" text-anchor="middle">TCP / UDP reusable SDK</text>
+
+          <rect class="node" x="578" y="390" width="224" height="122" rx="22" />
+          <text class="svg-title" x="690" y="428" text-anchor="middle">iOS SDK</text>
+          <text class="svg-subtitle" x="690" y="458" text-anchor="middle">Objective-C</text>
+          <text class="svg-small" x="690" y="486" text-anchor="middle">TCP / UDP reusable SDK</text>
+
+          <rect class="node-green" x="838" y="378" width="244" height="146" rx="22" />
+          <text class="svg-title" x="960" y="416" text-anchor="middle">DeviceCloud</text>
+          <text class="svg-subtitle" x="960" y="446" text-anchor="middle">RESTful API service</text>
+          <text class="svg-small" x="960" y="474" text-anchor="middle">Node.js • Alpine Linux</text>
+          <text class="svg-small" x="960" y="500" text-anchor="middle">Docker image delivery</text>
+        </svg>
+      </div>
+      <div class="note-box">My contribution: designed multiple software solutions around the DevicePort platform, including Windows management software, mobile SDKs, and a RESTful API service.</div>
+    </section>
+
+    <section class="slide" id="slide-4">
+      <div class="kicker">Trend Micro</div>
+      <h2>Protecting millions of endpoints.</h2>
+      <p class="lead">Worry-Free Business Security Services is a SaaS endpoint protection platform for Windows and Android devices.</p>
+      <div class="two-column">
+        <div class="diagram-card">
+          <svg viewBox="0 0 900 590" role="img" aria-label="Trend Micro endpoint architecture diagram">
+            <defs>
+              <marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="rgba(77,163,255,0.78)" />
+              </marker>
+            </defs>
+            <rect class="node-strong" x="210" y="42" width="480" height="116" rx="28" />
+            <text class="svg-title" x="450" y="88" text-anchor="middle">Worry-Free Business Security Services</text>
+            <text class="svg-subtitle" x="450" y="120" text-anchor="middle">SaaS Endpoint Protection</text>
+
+            <path class="svg-accent-line" d="M 450 158 L 450 218" marker-end="url(#arrow2)" />
+            <path class="svg-line" d="M 450 218 C 450 250, 235 250, 235 288" marker-end="url(#arrow2)" />
+            <path class="svg-line" d="M 450 218 C 450 250, 665 250, 665 288" marker-end="url(#arrow2)" />
+
+            <rect class="node" x="70" y="288" width="330" height="178" rx="26" />
+            <text class="svg-title" x="235" y="332" text-anchor="middle">Windows Endpoint</text>
+            <text class="svg-subtitle" x="235" y="366" text-anchor="middle">C++ agent development</text>
+            <text class="svg-small" x="235" y="398" text-anchor="middle">System integration</text>
+            <text class="svg-small" x="235" y="424" text-anchor="middle">Production debugging</text>
+            <text class="svg-small" x="235" y="450" text-anchor="middle">Performance analysis • Customer escalation</text>
+
+            <rect class="node" x="500" y="288" width="330" height="178" rx="26" />
+            <text class="svg-title" x="665" y="332" text-anchor="middle">Android Endpoint</text>
+            <text class="svg-subtitle" x="665" y="366" text-anchor="middle">Java agent development</text>
+            <text class="svg-small" x="665" y="398" text-anchor="middle">JNI integration</text>
+            <text class="svg-small" x="665" y="424" text-anchor="middle">VSAPI native engine integration</text>
+            <text class="svg-small" x="665" y="450" text-anchor="middle">Appium + Python automation framework</text>
+
+            <rect class="node-green" x="258" y="504" width="384" height="58" rx="18" />
+            <text class="svg-subtitle" x="450" y="539" text-anchor="middle">Cross-team collaboration with VSAPI • EYES • Browser Extension • Intel TDT</text>
+          </svg>
+        </div>
+        <div>
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-number">4M+</span>
+              <div class="stat-label">Windows endpoints</div>
+            </div>
+            <div class="stat">
+              <span class="stat-number">80K+</span>
+              <div class="stat-label">Android devices</div>
+            </div>
+          </div>
+          <div class="note-box">My contribution: integrated security modules into endpoint products, investigated complex production issues, and collaborated with module teams to deliver features reliably.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-5">
+      <div class="kicker">How I Approach Engineering</div>
+      <h2>Understand systems. Own problems. Keep learning.</h2>
+      <div class="grid-4">
+        <div class="principle">
+          <div class="icon"></div>
+          <h3>Ownership</h3>
+          <p>Take responsibility for technical problems until they are clearly understood and resolved.</p>
+        </div>
+        <div class="principle">
+          <div class="icon"></div>
+          <h3>Problem Solving</h3>
+          <p>Analyze the system behavior and root cause before changing the implementation.</p>
+        </div>
+        <div class="principle">
+          <div class="icon"></div>
+          <h3>Collaboration</h3>
+          <p>Work closely with engineering teams across product, platform, and core modules.</p>
+        </div>
+        <div class="principle">
+          <div class="icon"></div>
+          <h3>Continuous Learning</h3>
+          <p>Adopt new technologies and AI-assisted workflows to improve engineering productivity.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" id="slide-6">
+      <div class="kicker">Thank You</div>
+      <h2>Questions?</h2>
+      <p class="lead">I would be happy to discuss my experience, projects, and engineering approach in more detail.</p>
+      <div class="footer-contact">
+        <div class="contact-box">
+          <div class="contact-label">Email</div>
+          <div class="contact-value">hirobumi1989@gmail.com</div>
+        </div>
+        <div class="contact-box">
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-value">linkedin.com/in/hirobumi1989</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="hint">Use arrow keys to navigate</div>
+  <div class="slide-counter" id="slide-counter">1 / 6</div>
+  <script src="script.js"></script>
+</body>
+</html>
