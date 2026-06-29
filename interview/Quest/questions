@@ -1,8 +1,13 @@
-Q1
+# Quest Interview Questions
+
+## Q1
 
 How did you analyze CPU performance issue by WPA?
 
-Q2
+See: `answers.md` and `../../stories/CPU_Performance_WPA.md`.
 
-Which libraries you used in node.js and Python?
+## Q2
 
+Which libraries did you use in Node.js and Python?
+
+See: `answers.md` and `../../stories/DeviceCloud_REST_API.md`.

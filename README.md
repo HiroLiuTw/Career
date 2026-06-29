@@ -18,6 +18,8 @@ Hiro-Career/
 ├── projects/               # Detailed project notes
 │   ├── DevicePort/
 │   └── TrendMicro/
+├── stories/                # Reusable interview stories and STAR material
+├── docs/                   # Project notes and development plan
 └── interview/              # Company-specific interview preparation
 ```
 
@@ -47,3 +49,19 @@ git commit -m "Initial Hiro career portfolio"
 ```
 
 Later, connect this repository to GitHub and push it.
+
+## Phase 2 Updates
+
+This version adds structured Quest interview answers and reusable story notes:
+
+- `interview/Quest/answers.md`
+- `stories/CPU_Performance_WPA.md`
+- `stories/DeviceCloud_REST_API.md`
+- `docs/phase2_notes.md`
+
+Recommended commit message:
+
+```bash
+git add .
+git commit -m "Add Quest interview answers and reusable debugging stories"
+```

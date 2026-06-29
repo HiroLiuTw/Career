@@ -32,7 +32,7 @@ Give the interviewer a simple timeline without repeating the resume.
 
 I studied Computer Science and Information Engineering at National Taiwan University of Science and Technology.
 
-After graduation (Bachelor), I completed my military service, and then started my software engineering career at SUNIX in 2012.
+After graduation, I completed my military service, and then started my software engineering career at SUNIX in 2012.
 
 At SUNIX, I started as a software engineer and later became a section manager, leading a small engineering team.
 
@@ -53,11 +53,11 @@ At SUNIX, the main product I worked on was DevicePort.
 
 DevicePort is a device that virtualizes physical interfaces such as UART, USB, Digital IO, Analog IO, and Parallel ports over Ethernet.
 
-On Windows, I was responsible for the management console, it communicates with the background service to monitor and configure the DevicPort connections and the mapped virtual IO Ports.
+On Windows, I was responsible for developing the management console, which communicates with a background service to monitor, configure, and manage DevicePort connections and the mapped virtual I/O ports.
 
 For Android and iOS, because those systems do not have native concepts like COM ports or industrial IO interfaces, the communication and control logic had to be implemented purely in software.
 
-That's why I developed the SDK, so that customers can integrate the SDK and control DevicePort through the APIs.
+That's why I developed reusable SDKs that allowed customers to integrate DevicePort into their own mobile applications without having to implement the TCP and UDP communication protocols themselves.
 
 Besides the Windows application and mobile SDKs, another project I worked on was DeviceCloud.
 
@@ -88,11 +88,11 @@ For the past several years, I have been working at Trend Micro on Worry-Free Bus
 
 The product includes both Windows and Android endpoint agents.
 
-At first, I was responsible for Android Agents, I work on the endpoint agent using Java, and I also handle JNI integration with the native scanning engine provided by another internal module team.
+At first, I was responsible for the Android agent. I worked mainly on the endpoint application using Java, and I also handled JNI integration with the native scanning engine provided by another internal module team.
 
 I built an automation framework using Appium and Python to improve regression testing and release stability.
 
-After the Android agent was transferred to another engineering team for long-term maintenance, I shifted my primary focus to the Windows endpoint agent.
+After the Android agent was transferred to another engineering team for long-term maintenance, I shifted my primary focus to the Windows endpoint agent, where I have been working ever since.
 
 On the Windows side, I mainly work with C++ and focus on endpoint agent development, system integration, production debugging, performance analysis, and customer escalations.
 
