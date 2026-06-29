@@ -12,7 +12,9 @@ Quickly establish what kind of engineer you are.
 ### Suggested Script
 Hi, I'm Hiro Liu. I'm a senior software engineer based in Taipei, Taiwan, with over thirteen years of software engineering experience.
 
-My background is mainly in system software, endpoint security, cross-platform development, automation, and system integration. I have worked across Windows, Android, iOS, and Linux, and my experience spans from industrial IoT products to endpoint security products used at global scale.
+My background is mainly in system software, endpoint security, cross-platform development, automation, and system integration.
+
+I have worked across Windows, Android, iOS, and Linux, and my experience spans from industrial IoT products to endpoint security products used at global scale.
 
 The main theme of my career is building reliable software around real-world systems, where software needs to interact closely with devices, operating systems, and production environments.
 
@@ -27,11 +29,14 @@ Let me briefly walk through my career journey first.
 Give the interviewer a simple timeline without repeating the resume.
 
 ### Suggested Script
-I studied Computer Science and Information Engineering at National Taiwan University of Science and Technology. After graduation, I completed my military service, and then started my software engineering career at SUNIX in 2012.
 
-At SUNIX, I worked on industrial IoT products. I started as a software engineer and later became a section manager, leading a small engineering team. During that period, I worked on Windows software, Android and iOS SDKs, device communication, and a Docker-based local service.
+I studied Computer Science and Information Engineering at National Taiwan University of Science and Technology.
 
-In 2020, I joined Trend Micro as a senior software engineer. Since then, I have been working on Worry-Free Business Security Services, mainly focusing on Windows and Android endpoint products, production issue investigation, system integration, and automation.
+After graduation (Bachelor), I completed my military service, and then started my software engineering career at SUNIX in 2012.
+
+At SUNIX, I started as a software engineer and later became a section manager, leading a small engineering team.
+
+In 2020, I joined Trend Micro as a senior software engineer.
 
 ### Transition
 The first major product area I want to introduce is DevicePort at SUNIX.
@@ -44,13 +49,21 @@ The first major product area I want to introduce is DevicePort at SUNIX.
 Show that your SUNIX experience was product ecosystem work, not only application development.
 
 ### Suggested Script
-At SUNIX, the main product I worked on was DevicePort. Simply speaking, DevicePort is an industrial device server that virtualizes physical interfaces such as UART, USB, Digital IO, Analog IO, and Parallel ports over Ethernet.
+At SUNIX, the main product I worked on was DevicePort.
 
-On Windows, the user experience is similar to having physical interface cards installed on the host machine. Applications can communicate with remote ports through the network as if the ports existed locally. For Android and iOS, because those systems do not have native concepts like COM ports or industrial IO interfaces, the communication and control logic had to be implemented purely in software.
+DevicePort is a device that virtualizes physical interfaces such as UART, USB, Digital IO, Analog IO, and Parallel ports over Ethernet.
 
-Around the DevicePort hardware platform, I worked on several software solutions. I developed the Windows management console for configuration and virtual port management. I also designed Android and iOS SDKs, encapsulating the TCP and UDP communication logic so customers could integrate DevicePort control into their own mobile applications.
+On Windows, I was responsible for the management console, it communicates with the background service to monitor and configure the DevicPort connections and the mapped virtual IO Ports.
 
-Another project was DeviceCloud. It was a RESTful API service fully implemented in Node.js, running inside a prepared Alpine Linux environment and delivered as a Docker image. The purpose was to provide a higher-level API-based management solution for DevicePort.
+For Android and iOS, because those systems do not have native concepts like COM ports or industrial IO interfaces, the communication and control logic had to be implemented purely in software.
+
+That's why I developed the SDK, so that customers can integrate the SDK and control DevicePort through the APIs.
+
+Besides the Windows application and mobile SDKs, another project I worked on was DeviceCloud.
+
+It was a RESTful API service fully implemented in Node.js, running inside a prepared Alpine Linux environment and delivered as a Docker image.
+
+The purpose was to provide a higher-level API-based management solution for DevicePort.
 
 This experience gave me a strong foundation in cross-platform development, device communication, SDK design, and product-level system integration.
 
@@ -73,13 +86,25 @@ Explain your current product scope and clarify that you are an endpoint integrat
 ### Suggested Script
 For the past several years, I have been working at Trend Micro on Worry-Free Business Security Services, which is a SaaS endpoint protection product for business customers.
 
-The product includes both Windows and Android endpoint agents. On the Windows side, I mainly work with C++ and focus on endpoint agent development, system integration, production debugging, performance analysis, and customer escalations. The Windows endpoint product is deployed across more than four million managed endpoints.
+The product includes both Windows and Android endpoint agents.
 
-On the Android side, I work on the endpoint agent using Java, and I also handle JNI integration with the native scanning engine provided by the VSAPI module team. I built an automation framework using Appium and Python to improve regression testing and release stability.
+At first, I was responsible for Android Agents, I work on the endpoint agent using Java, and I also handle JNI integration with the native scanning engine provided by another internal module team.
 
-A very important part of my role is cross-team integration. For example, when integrating modules from teams such as EYES, VSAPI, Browser Extension, or Intel TDT, my responsibility is not to implement the detection logic itself. My responsibility is to integrate those modules into the final endpoint product, manage the module lifecycle, enable features through their APIs, and make sure the product works reliably in customer environments.
+I built an automation framework using Appium and Python to improve regression testing and release stability.
 
-In addition to feature work, I also handle production issues and customer escalations. Every year I handle many customer cases, including critical issues that require remote debugging, log analysis, performance investigation, and coordination across teams.
+After the Android agent was transferred to another engineering team for long-term maintenance, I shifted my primary focus to the Windows endpoint agent.
+
+On the Windows side, I mainly work with C++ and focus on endpoint agent development, system integration, production debugging, performance analysis, and customer escalations.
+
+The Windows endpoint product is deployed across more than four million managed endpoints.
+
+A very important part of my role is cross-team integration.
+
+For example, when integrating modules from other core-module teams, my responsibility is not to implement the detection logic itself. My responsibility is to integrate those modules into the final endpoint product, manage the module lifecycle, enable features through their APIs, and make sure the product works reliably in customer environments.
+
+In addition to feature work, I also handle production issues and customer escalations.
+
+Every year I handle around 70 to 90 customer cases, including critical issues that require remote debugging, log analysis, performance investigation, and coordination across teams.
 
 ### Possible Follow-up Questions
 - What does your team own in the endpoint product?
@@ -107,7 +132,7 @@ Second, problem solving. I try to understand the system behavior before changing
 
 Third, collaboration. Many of the projects I worked on required collaboration with other engineering teams. I am comfortable acting as the integration point between product teams and core module teams.
 
-Fourth, continuous learning. In recent years, I have started using AI-assisted development workflows, including internal Claude-based tools connected to GitHub and JIRA through MCP servers. I use these tools to analyze customer issues, review project context, generate documentation, and support development workflows.
+Fourth, continuous learning. In recent years, I have started using AI-assisted development workflows, including internal Claude-based tools connected to GitHub and JIRA through MCP servers. I use these tools to analyze customer issues, review project context, generate documentation, and support engineering productivity.
 
 ### Possible Follow-up Questions
 - Can you give an example of ownership?
