@@ -65,3 +65,27 @@ Recommended commit message:
 git add .
 git commit -m "Add Quest interview answers and reusable debugging stories"
 ```
+
+
+## Phase 3 Updates
+
+This version adds a company-based interview workspace for Zyxel and shared interview materials:
+
+- `interview/Zyxel/README.md`
+- `interview/Zyxel/company.md`
+- `interview/Zyxel/job_description.md`
+- `interview/Zyxel/technical_questions.md`
+- `interview/Zyxel/manager_questions.md`
+- `interview/Zyxel/my_answers.md`
+- `interview/Zyxel/feedback.md`
+- `common/self_introduction.md`
+- `common/star_stories.md`
+
+Portfolio timeline is intentionally kept as `2020 - 2026`; Hiro's last day at Trend Micro was 2026-06-12.
+
+Recommended commit message:
+
+```bash
+git add .
+git commit -m "Add Zyxel interview preparation workspace"
+```
